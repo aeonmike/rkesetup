@@ -43,7 +43,7 @@ sleep 2s
 sudo tee /etc/hosts << EOF
 127.0.0.1       localhost.localdomain            localhost
 172.16.16.108   clustermgr.devsecops-academe.com clustermgr
-172.16.16.172   master.devsecops-academe.com     master
+172.16.16.173   master.devsecops-academe.com     master
 172.16.16.174   worker1.devsecops-academe.com    worker1
 172.16.16.175   worker2.devsecops-academe.com    worker2
 EOF
