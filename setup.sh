@@ -57,7 +57,7 @@ sleep 2s
 
 {
 apt update
-apt install git net-tools
+apt install git net-tools -y
 git --version
 }
 
