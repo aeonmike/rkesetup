@@ -78,6 +78,16 @@ which rke
 rke --version
 }
 
+sleep 2s
+
+echo -e "${Ylow}Installing Helm${NC}"
+
+{
+sleep 2s
+curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3
+chmod +x get_helm.sh
+./get_helm.sh
+}
 
 #Install Kubectl 1.21.14
 
